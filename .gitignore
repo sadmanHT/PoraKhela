@@ -61,6 +61,11 @@ local.properties
 *.ap_
 *.aab
 
+# Java heap dumps and profiling files
+*.hprof
+*.prof
+java_pid*.hprof
+
 # Keystore files
 *.jks
 *.keystore

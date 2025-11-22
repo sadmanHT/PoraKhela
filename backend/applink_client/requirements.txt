@@ -1,0 +1,26 @@
+# Requirements for Applink API Integration Layer
+
+# HTTP client for async/sync requests
+httpx>=0.25.0
+
+# For enum support (built-in since Python 3.4+)
+# enum34>=1.1.10  # Only needed for Python < 3.4
+
+# Development and testing dependencies (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.11.1
+
+# Logging and monitoring (optional)
+structlog>=23.1.0
+
+# Type checking (optional)
+mypy>=1.5.0
+
+# Code formatting (optional)
+black>=23.7.0
+isort>=5.12.0
+
+# Documentation (optional)
+sphinx>=7.1.0
+sphinx-rtd-theme>=1.3.0
